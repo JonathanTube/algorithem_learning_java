@@ -29,14 +29,5 @@ class SumOfThreeNumber {
     public static void main(String[] args) {
         SumOfThreeNumber sumOfThreeNumber = new SumOfThreeNumber();
         sumOfThreeNumber.combinationSum3(3, 7);
-        Map<Character, String> map = new HashMap<>();
-        map.put('2',"abc");
-        map.put('3',"def");
-        map.put('4',"ghi");
-        map.put('5',"jkl");
-        map.put('6',"mno");
-        map.put('7',"pqrs");
-        map.put('8',"tvu");
-        map.put('9',"wxyz");
     }
 }
