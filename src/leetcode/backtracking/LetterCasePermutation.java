@@ -3,7 +3,7 @@ package leetcode.backtracking;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LetterCasePermutation {
+class LetterCasePermutation {
     List<String> result = new ArrayList<>();
 
     public List<String> letterCasePermutation(String s) {
@@ -32,6 +32,6 @@ public class LetterCasePermutation {
 
     public static void main(String[] args) {
         LetterCasePermutation letterCasePermutation = new LetterCasePermutation();
-        letterCasePermutation.letterCasePermutation("a1b2").forEach(System.out::println);
+        letterCasePermutation.letterCasePermutation("a1b1c1d1").forEach(System.out::println);
     }
 }
