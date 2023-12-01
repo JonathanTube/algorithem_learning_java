@@ -10,8 +10,17 @@ public class DequeTest {
         deque.add(2);
         deque.add(3);
         deque.offer(4);
-        deque.offerFirst(11);
+        deque.offerLast(5);
+        deque.offerFirst(0);
+        deque.removeFirst();
+        deque.removeLast();
+        deque.push(0);
+        deque.pop();
+        deque.removeFirst();
+
+
         deque.forEach(item -> System.out.print(item + "-"));
+        System.out.println();
         System.out.println(deque.peekLast());
 //        System.out.println(deque.pollLast());
         System.out.println(deque.poll());
